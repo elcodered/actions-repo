@@ -6,6 +6,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/versio', function () {
+Route::get('/version', function () {
     return response()->json(['version' => '1.0.0']);
 });
